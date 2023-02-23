@@ -6,7 +6,7 @@
 
 #include "main.h"
 int (*get_builtin(char *command))(char **args, char **front);
-int simle_shell_exit(char **args, char **front);
+int simple_shell_exit(char **args, char **front);
 int simple_shell_cd(char **args, char __attribute__((__unused__)) **front);
 int simple_shell_help(char **args, char __attribute__((__unused__)) **front);
 
